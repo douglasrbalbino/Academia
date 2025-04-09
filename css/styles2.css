@@ -5,8 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-
-
 }
 
 body {
@@ -70,7 +68,6 @@ header {
     font-size: 1.25rem;
     text-decoration: none;
     color: #1E1E1E;
-
 }
 
 /* Conteúdo do header */
@@ -100,6 +97,7 @@ header {
     font-weight: 400;
     font-style: normal;
     font-size: 1.125rem;
+    text-align: center;
     color: #CDCDCD;
 }
 
@@ -150,6 +148,75 @@ header {
     font-size: 1.8rem;
     color: #E8F4FC;
     background-color: violet;
+}
+
+/* Área de Inscrição */
+
+.vacancies-title2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 214px;
+    background-color: lightblue;
+}
+
+.vacancies-title2 h2 {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.813rem;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    width: 1300px;
+    height: 559px;
+    padding: 39px 38px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.signUp_top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+}
+
+.input1 {
+    width: 360px;
+    height: 58px;
+    padding: 23px;
+    border: 2px #FF6A00 solid;
+    border-radius: 20px;
+    background: none;
+}
+
+.input1::placeholder {
+    font-size: 1.563rem;
+    color: #e8f4fc7e;
+}
+
+.signUp_botton {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.input2 {
+    width: 1224px;
+    height: 58px;
+    padding: 23px;
+    border: 2px #FF6A00 solid;
+    border-radius: 20px;
+    background: none;
+}
+
+.input2::placeholder {
+    font-size: 1.563rem;
+    color: #e8f4fc7e;
 }
 
 
@@ -204,6 +271,7 @@ footer {
         margin-left: 100px;
     }
 }
+
 .title_list{
     font-size: large;
     margin: 20px;
