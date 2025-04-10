@@ -11,6 +11,7 @@ body {
     background-color: #323232;
 }
 
+/* ---------------------------------------------------- Página Trabalhe Conosco ---------------------------------------------------- */
 
 /* ------------------- header ------------------- */
 
@@ -19,7 +20,7 @@ body {
     margin: 0 auto;
 }
 
-header {
+.header_joinUs {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -442,4 +443,193 @@ header {
 
 .footer_nav ul li.list_title {
     margin-bottom: 20px;
+}
+
+/* ---------------------------------------------------- Página Contato ---------------------------------------------------- */
+
+.header_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 185px;
+}
+
+/* ------------------- Contatos ------------------- */
+
+.contact_info {
+    display: flex;
+    gap: 100px;
+    width: 1226px;
+    height: 320px;
+    margin: 100px auto 0;
+
+}
+
+.contact_card {
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    width: 342px;
+    height: 320px;
+    padding: 40px 26px;
+    border-radius: 50px;
+    background-color: #1E1E1E;
+}
+
+.cCard_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 63px;
+    border: 1px #2E2E2E solid;
+    border-radius: 10px;
+}
+
+.fa-comments, .fa-phone, .fa-location-dot {
+    font-size: 3.215rem;
+    color: #FF6A00;
+}
+
+
+.cCard_bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 252px;
+    height: 130px;
+    padding: 10px;
+
+    h3 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.9rem;
+        color: #FF852E;
+    }
+
+    p {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.25rem;
+        color: #FF852E;
+    }
+
+    a {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.25rem;
+        color: #E8F4FC;
+        text-decoration: none; 
+    }
+
+    a:hover {
+        color: #FF852E;
+    }
+}
+
+/* ------------------- Perguntas Frequentes ------------------- */
+
+.faq_title {
+    h2 {
+        margin: 100px auto;
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.813rem;
+        color: #FF852E;
+        text-align: center;
+    }
+}
+
+.contact_faqList {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.faq_iten {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 30px;
+
+    p {
+        display: none; /* < ================= Alterar display none/block */
+        text-align: justify;
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.25rem;
+        color: #E8F4FC;
+    }
+
+}
+
+.faqIten_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.875rem;
+        color: #E8F4FC;
+    }
+
+    .fa-circle-chevron-down {
+        font-size: 35px;
+        color: #E8F4FC;
+        cursor: pointer;
+    }
+}
+
+/* ------------------- Agende uma visita ------------------- */
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 1000px;
+    height: 250px;
+    margin: 100px auto;
+
+    h2 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.813rem;
+        color: #FF852E;
+        text-align: center;
+    }
+
+    p {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #CDCDCD;
+        text-align: center;
+    }
+
+    button {
+        width: 354px;
+        height: 40px;
+        border: none;
+        border-radius: 50px;
+        font-family: "ABeeZee", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        background-color: #FF852E;
+        cursor: pointer;
+    }
+    
 }
