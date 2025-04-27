@@ -33,10 +33,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
-    gap: 121.6px;
+    padding: 0 35px;
+    gap: 135.73px;
     width: 1300px;
-    height: 85px;
+    height: 94.57px;
     margin-top: 50px;
     border-radius: 100px;
     font-family: "ABeeZee", sans-serif;
@@ -44,9 +44,9 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.logo {
-    width: 105.8px;
-    height: 85px;
+.nav_logo {
+    width: 68px;
+    height: 55px;
 }
 
 .menu_itens {
@@ -377,7 +377,7 @@ body {
     font-style: normal;
     font-size: 1.438rem;
     color: #E8F4FC;
-    background-color: #1E1E1E;
+    background-color: #000000;
 
 }
 
@@ -633,3 +633,126 @@ body {
     }
     
 }
+
+/* ---------------------------------------------------- Página Sobre Nós ---------------------------------------------------- */
+
+
+/* ------------------- header ------------------- */
+.header_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 194.5px;
+}
+
+/* ------------------- main ------------------- */
+
+.about_top {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1300px;
+    height: 598px;
+    margin: 80px auto;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: #1E1E1E;
+
+    h2 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.813rem;
+        color: #E8F4FC;
+    }
+}
+
+.aboutTop_content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 1200px;
+    height: 413px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #E8F4FC;
+    background-color: #1E1E1E;
+
+    img {
+        width: 284px;
+        height: 413px
+    };
+}
+
+.aboutContent_text {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 886px;
+    height: 360px;
+}
+
+.about_bottom {
+    display: flex;
+    gap: 30px;
+    width: 1300px;
+    height: 622px;
+    padding: 43px 50px;
+    margin: 0 auto ;
+    border-radius: 50px;
+    background-color: #1E1E1E;
+}
+
+.aboutBottom_content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #E8F4FC;
+}
+
+/* ------------------- Missão, Visão e Valores (mvv) ------------------- */
+.about_mvv {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 264px;
+    padding: 50px;
+    margin: 80px 0;
+    background-color: transparent;
+}
+
+.mvv_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 380px;
+    height: 140px;
+
+    h3 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.188rem;
+        color: #FF852E;
+        text-align: center;
+    }
+
+    p {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+/* ---------------------------------------------------- Página Programas e Serviços ---------------------------------------------------- */
+
