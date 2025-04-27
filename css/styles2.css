@@ -756,3 +756,129 @@ body {
 
 /* ---------------------------------------------------- Página Programas e Serviços ---------------------------------------------------- */
 
+/* ------------------- header ------------------- */
+.header_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 194.5px;
+}
+
+/* ------------------- main ------------------- */
+.services_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    margin: 50px 0;
+
+    h2 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.813rem;
+        color: #E8F4FC;
+    }
+}
+
+.servicesCard_area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 1300px;
+    padding: 0 25px;
+    margin: 0 auto 50px auto;
+    background-color: transparent;
+}
+
+.services_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+    height: 538px;
+    background-color: transparent;
+}
+
+.serviceCard_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+
+    h3 {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 2.188rem;
+        color: #FFFFFF;
+    }
+}
+
+.serviceCard_button{
+    text-decoration: none;
+
+    button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 212px;
+        height: 65px;
+        padding: 5px 5px 5px 20px;
+        border: none;
+        border-radius: 50px;
+        font-family: "ABeeZee", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.25rem;
+        color: #E8F4FC;
+        background-image: linear-gradient(to right, #FF6A00, #FF7410, #FF852E);
+    }
+
+}
+
+.fa-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: #000000;
+}
+
+.services_card p {
+    padding: 5px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+.bodybuilding_card {
+    background-image: url(../imagens/service-1.png);
+}
+
+.swimming_card {
+    background-image: url(../imagens/service-2.png);
+}
+
+.hydrogymnastics_card {
+    background-image: url(../imagens/service-2.png);
+}
+
+.groupClasses_card {
+    background-image: url(../imagens/service-3.png);
+}
+
+.nutrition_card {
+    background-image: url(../imagens/service-4.png);
+}
+
+.rehabilitation_card {
+    background-image: url(../imagens/service-5.png);
+}
