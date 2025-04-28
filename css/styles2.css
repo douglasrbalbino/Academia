@@ -589,6 +589,7 @@ body {
         color: #E8F4FC;
         cursor: pointer;
     }
+
 }
 
 /* ------------------- Agende uma visita ------------------- */
@@ -757,7 +758,7 @@ body {
 /* ---------------------------------------------------- Página Programas e Serviços ---------------------------------------------------- */
 
 /* ------------------- header ------------------- */
-.header_title {
+.header_services {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -840,7 +841,7 @@ body {
 
 }
 
-.fa-solid {
+.fa-chevron-right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -881,4 +882,211 @@ body {
 
 .rehabilitation_card {
     background-image: url(../imagens/service-5.png);
+}
+
+
+/* ---------------------------------------------------- Página Planos e Preços ---------------------------------------------------- */
+
+/* ------------------- header ------------------- */
+.header_prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 194.5px;
+}
+
+/* ------------------- main ------------------- */
+.prices_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 54px;
+    margin: 50px 0;
+
+    h2 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.813rem;
+        color: #E8F4FC;
+    }
+}
+
+/* ------------------- área dos cards ------------------- */
+.pricesCard_area {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.prices_card {
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+    width: 350px;
+    height: 550px;
+    padding: 40px 50px;
+    border-radius: 20px;
+    background-color: #1E1E1E;
+}
+
+.pricesCard_content {
+    width: 240px;
+    height: 327px;
+}
+
+.pricesCard_top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 240px;
+    height: 116px;
+
+    h3 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.438rem;
+        color: #FF852E;
+    }
+    
+    p {
+        font-family: "ABeeZee", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.563rem;
+        color: #E8F4FC;
+    }
+
+}
+
+.pricesCard_bottom {
+    display: flex;
+    align-items: end;
+    height: 211px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li {
+            font-family: "ABeeZee", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.25rem;
+            color: #E8F4FC;
+        }
+    }
+}
+
+.pricesCard_button {
+    text-decoration: none;
+
+    button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 252px;
+        height: 65px;
+        padding: 5px 5px 5px 20px;
+        border: none;
+        border-radius: 50px;
+        font-family: "ABeeZee", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.25rem;
+        color: #E8F4FC;
+        background-image: linear-gradient(to right, #FF6A00, #FF7410, #FF852E);
+    }
+
+}
+
+/* ------------------- card 2 ------------------- */
+
+.prices_card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+    width: 350px;
+    height: 550px;
+    padding: 40px 50px;
+    border-radius: 20px;
+    background-color: #1E1E1E;
+}
+
+.pricesCard2_content {
+    display: flex;
+    flex-direction: column;
+    gap: 54.5px;
+    width: 260px;
+    height: 327px;
+}
+
+.pricesCard2_top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 260px;
+    height: 116px;
+
+    h3 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.438rem;
+        color: #FF852E;
+    }
+    
+    p {
+        font-family: "ABeeZee", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.563rem;
+        color: #E8F4FC;
+    }
+
+}
+
+.pricesCard2_bottom {
+    display: flex;
+    align-items: end;
+    height: 211px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li {
+            font-family: "ABeeZee", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.25rem;
+            color: #E8F4FC;
+        }
+    }
+}
+
+.pricesCard2_button {
+    text-decoration: none;
+
+    button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 252px;
+        height: 65px;
+        padding: 5px 5px 5px 20px;
+        border: none;
+        border-radius: 50px;
+        font-family: "ABeeZee", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.25rem;
+        color: #E8F4FC;
+        background-image: linear-gradient(to right, #FF6A00, #FF7410, #FF852E);
+    }
+
 }
