@@ -15,21 +15,20 @@
     <!-- Header -->
     <div class="container">
     <header class="header_joinUs">
-        <nav class="menu_bar">
-            <li ><a href="#"><img class="logo" src="./imagens/Logo-final.png" alt="Logo"></a></li>
-
-            <ul class="menu_itens">
-
-                <li><a href="./index.html">Página inicial</a></li>
-                <li><a href="./services.html">Programas e Serviços</a></li>
-                <li><a href="./about.html">Sobre nós</a></li>
-                <li><a href="./contact.html">Contatos</a></li>
-                <li><a class="stand_page" href="./joinUs.html">Trabalhe Conosco</a></li>
-        
-            </ul>
-
-            <li><a href="#" class="login_button">Login</a></li>
-        </nav>
+        <div class="headerJoinUs_top">
+            <nav class="menu_bar">
+                <li ><a href="#"><img class="logo" src="./imagens/Logo-final.png" alt="Logo"></a></li>
+                <ul class="menu_itens">
+                    <li><a href="./index.html">Página inicial</a></li>
+                    <li><a href="./services.html">Programas e Serviços</a></li>
+                    <li><a href="./about.html">Sobre nós</a></li>
+                    <li><a href="./contact.html">Contatos</a></li>
+                    <li><a class="stand_page" href="./joinUs.html">Trabalhe Conosco</a></li>
+            
+                </ul>
+                <li><a href="#" class="login_button">Login</a></li>
+            </nav>
+        </div>
 
         <div class="header_content">
             <h1 class="header_title">
@@ -94,30 +93,30 @@
         </div>
 
         <div class="container">
-            <section class="signUp">
-                <div class="signUp_top">
-                    <input class="input1" type="text" placeholder="Nome">
+            <div class="signUp_area">
 
-                    <input class="input1" type="text" placeholder="Sobrenome">
-
-                    <input class="input1" type="text" placeholder="Data de Nascimento">
-
-                    <input class="input1" type="text" placeholder="E-mail">
-
-                    <input class="input1" type="text" placeholder="Celular">
-
-                    <input class="input1" type="text" placeholder="Endereço">
-                </div>
-
-                <div class="signUp_botton">
-                    <input class="input2" type="text" placeholder="Para qual vaga está se candidatando?">
-
-                    <div class="input_container">
-                        <input class="input3" type="text" placeholder="Carregue seu currículo aqui ">
-                        <i class="fa-solid fa-download"></i>
+                <form name="form_signUp" method="post" class="signUp">
+                    <div class="signUp_top">
+                        <input class="input1" type="text" placeholder="Nome">
+                        <input class="input1" type="text" placeholder="Sobrenome">
+                        <input class="input1" type="date" placeholder="Data de Nascimento">
+                        <input class="input1" type="email" placeholder="E-mail">
+                        <input class="input1" type="number" placeholder="Celular">
+                        <input class="input1" type="text" placeholder="Endereço">
                     </div>
-                </div>
-            </section>
+                    <div class="signUp_bottom">
+                        <input class="input2" type="text" placeholder="Para qual vaga está se candidatando?">
+                        <span class="input_container">
+                            <input class="input3" readonly   placeholder="Carregue seu currículo aqui ">
+                            <i class="fa-solid fa-download"></i>
+                        </span>
+                    </div>
+                </form>
+
+                <button type="submit" name="form_signUp" class="submit_button">Inscreva-se</button>
+
+            </div>
+
         </div>
 
         <div class="testimony-title container">
@@ -133,7 +132,7 @@
                         </div>
 
                         <div class="card_userInfo">
-                            <h4>Instrutor</h4>
+                            <h4>Funcionário</h4>
                             <p>Instrutor de Natação</p>
                         </div>
                     </div>
@@ -151,8 +150,6 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
                     </div>
-
-                    <button class="card_button">UX/UI Design</button>
 
                 </div>  
 
