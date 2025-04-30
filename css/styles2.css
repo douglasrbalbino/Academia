@@ -894,6 +894,12 @@ body {
         font-size: 1.25rem;
         color: #E8F4FC;
         background-image: linear-gradient(to right, #FF6A00, #FF7410, #FF852E);
+        cursor: pointer;
+    }
+
+    button:hover {
+        box-shadow: 5px 5px 10px #ff852ec2;
+        /* background: rgba(255, 255, 255, 0.3) */
     }
 
 }
@@ -929,18 +935,21 @@ body {
     background-image: url(../imagens/service-2.png);
 }
 
-.groupClasses_card {
-    background-image: url(../imagens/service-3.png);
+.jiuJitsu_card {
+    background-image: url(../imagens/jiujitsu2.jpg);
 }
 
-.nutrition_card {
-    background-image: url(../imagens/service-4.png);
+.muayThai_card {
+    background-image: url(../imagens/muaythai1.jpg);
 }
 
-.rehabilitation_card {
-    background-image: url(../imagens/service-5.png);
+.boxing_card {
+    background-image: url(../imagens/boxing2.jpeg);
 }
 
+.dance_card {
+    background-image: url(../imagens/dance2.jpeg);
+}
 
 /* ---------------------------------------------------- Página Planos e Preços ---------------------------------------------------- */
 
