@@ -306,6 +306,7 @@ body {
     font-size: 1.25rem;
     text-decoration: none;
     color: #E8F4FC;
+    cursor: pointer;
 }
 
 /* Área de Depoimentos */
@@ -332,8 +333,11 @@ body {
 }
 
 .card_testimony {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     width: 413.33px;
-    height: 480px;
+    height: 368px;
     padding: 20px;
     border-radius: 20px;
     background-color: #1E1E1E;
@@ -343,7 +347,7 @@ body {
     display: flex;
     width: 373.33px;
     height: 60px;
-    margin: 0 auto 40.5px;
+    margin: 0 auto;
     
 }
 
@@ -363,6 +367,10 @@ body {
     font-style: normal;
     color: #E8F4FC;
 
+    h4 {
+        font-weight: normal;
+    }
+
     p {
         font-style: italic;
     }
@@ -371,7 +379,7 @@ body {
 .card_middle {
     width: 373.33px;
     height: 265px;
-    margin: 0 auto 40.5px;
+    margin: 0 auto;
 }
 
 .star_review {
@@ -386,6 +394,7 @@ body {
 }
 
 .testimony_content {
+    width: 373.33;
     height: 231px;
     font-family: "ABeeZee", sans-serif;
     font-weight: 400;
@@ -410,7 +419,7 @@ body {
 .footer {
     display: flex;
     align-items: center;
-    height: 320px;
+
     padding: 50px;
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
@@ -444,6 +453,10 @@ body {
     align-items: center;
     gap: 10px;
     max-height: 100%;
+
+    a:visited {
+        color: inherit;
+    }
 }
 
 .fa-square-instagram {
@@ -483,6 +496,10 @@ body {
 
 .footer_nav ul li.list_title {
     margin-bottom: 20px;
+
+    a:hover {
+        color: #FF852E;
+    }
 }
 
 /* ---------------------------------------------------- Página Contato ---------------------------------------------------- */
