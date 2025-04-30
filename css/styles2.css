@@ -11,27 +11,27 @@ body {
     background-color: #323232;
 }
 
-/* ---------------------------------------------------- Página Trabalhe Conosco ---------------------------------------------------- */
-
-/* ------------------- header ------------------- */
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.header_joinUs {
+/* ---------------------------------------------------- Página Inicial ---------------------------------------------------- */
+
+/* ------------------- header ------------------- */
+
+.header_index {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
-    background-image: url(../imagens/Header\ Back.png);
+    gap: 10px;
+    height: 543px;
+    background-image: url(../imagens/back.png);
 }
 
 /* Barra de menu */
-.headerJoinUs_top {
+.headerIndex_top {
     height: 194.57px;
-    margin-bottom: 10px;
 }
 
 .menu_bar {
@@ -86,6 +86,193 @@ body {
 
 /* Conteúdo do header */
 
+.headerIndex_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 1440px;
+    padding: 0 100px;
+}
+
+.headerIndex_title {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.813rem;
+    color: #E8F4FC;
+    text-align: center;
+}
+
+.headerIndex_text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+    color: #CDCDCD;
+}
+
+.headerIndex_button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #1E1E1E;
+    background-color: #FF852E;
+    cursor: pointer;
+    
+    a {
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: inherit;
+    }
+}
+
+/* ------------------- Main ------------------- */
+.indexServices_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+
+
+    h2 {
+        font-family: "Protest Strike", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2.188rem;
+        color: #E8F4FC;
+    }
+}
+
+.indexCard_area {
+    width: 1300px;
+    height: 605px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.indexService_card {
+    display: flex;
+    width: 550px;
+    height: 165px;
+    padding-inline-start: 20px;
+    border-radius: 20px;
+    background-color: lightcoral;
+}
+
+/* ------------------- footer ------------------- */
+
+.footer {
+    display: flex;
+    align-items: center;
+
+    padding: 50px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.438rem;
+    color: #E8F4FC;
+    background-color: #000000;
+
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 192px;
+}
+
+.social_top {
+    display: flex;
+    align-items: center;
+    width: 639px;
+    height: 85px;
+}
+
+.footer_logo {
+    width: 85px;
+}
+
+.social_links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-height: 100%;
+
+    a:visited {
+        color: inherit;
+    }
+}
+
+.fa-square-instagram {
+    width: 55.5px;
+    height: 55.5px;
+    border: 1px #E8F4FC solid;
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+.fa-square-instagram:hover {
+    border: 1px #FF852E solid;
+    color: #FF852E;
+}
+
+.footer_nav {
+    display: flex;
+    gap: 80px;
+    font-size: 1.125rem; 
+}
+
+.footer_nav ul li {
+    margin-bottom: 10px;
+}
+
+.footer_nav ul li a {
+    text-decoration: none;
+    color: #E8F4FC;
+}
+
+.footer_nav ul li a:hover {
+    color: #FF852E;
+}
+
+
+.footer_nav ul li.list_title {
+    margin-bottom: 20px;
+
+    a:hover {
+        color: #FF852E;
+    }
+}
+
+/* ---------------------------------------------------- Página Trabalhe Conosco ---------------------------------------------------- */
+.header_joinUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 500px;
+    background-image: url(../imagens/Header\ Back.png);
+}
+
+/* Conteúdo do header */
+
+.headerJoinUs_top {
+    height: 194.57px;
+}
+
 .header_content {
     display: flex;
     flex-direction: column;
@@ -103,6 +290,7 @@ body {
     font-style: normal;
     font-size: 2.813rem;
     color: #E8F4FC;
+    text-align: center;
 }
 
 .header_content p {
@@ -113,7 +301,6 @@ body {
     text-align: center;
     color: #CDCDCD;
 }
-
 
 /* ------------------- main ------------------- */
 
@@ -414,93 +601,7 @@ body {
 }
 
 
-/* ------------------- footer ------------------- */
 
-.footer {
-    display: flex;
-    align-items: center;
-
-    padding: 50px;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.438rem;
-    color: #E8F4FC;
-    background-color: #000000;
-
-}
-
-.footer_left {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    height: 192px;
-}
-
-.social_top {
-    display: flex;
-    align-items: center;
-    width: 639px;
-    height: 85px;
-}
-
-.footer_logo {
-    width: 85px;
-}
-
-.social_links {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    max-height: 100%;
-
-    a:visited {
-        color: inherit;
-    }
-}
-
-.fa-square-instagram {
-    width: 55.5px;
-    height: 55.5px;
-    border: 1px #E8F4FC solid;
-    border-radius: 50px;
-    font-size: 30px;
-    text-align: center;
-    align-content: center;
-}
-
-.fa-square-instagram:hover {
-    border: 1px #FF852E solid;
-    color: #FF852E;
-}
-
-.footer_nav {
-    display: flex;
-    gap: 80px;
-    font-size: 1.125rem; 
-}
-
-.footer_nav ul li {
-    margin-bottom: 10px;
-}
-
-.footer_nav ul li a {
-    text-decoration: none;
-    color: #E8F4FC;
-}
-
-.footer_nav ul li a:hover {
-    color: #FF852E;
-}
-
-
-.footer_nav ul li.list_title {
-    margin-bottom: 20px;
-
-    a:hover {
-        color: #FF852E;
-    }
-}
 
 /* ---------------------------------------------------- Página Contato ---------------------------------------------------- */
 
